@@ -334,7 +334,7 @@ small {
 #projects {
     height: fit-content;
     object-fit: cover;
-    background-image: url(./img/project-bg.png);
+    background-image: url(https://media3.giphy.com/media/W2VifgXysWenh1aikp/giphy.gif);
     background-size: cover;
     background-position: center !important;
     background-attachment: fixed;
@@ -375,11 +375,11 @@ small {
 .project-group>ul>li{
     list-style: none;
     display: inline-flex;
-    margin:5px -3px;
-    padding:7px 10px;
-    border: 1px solid;
-    border-color: #000;
-    background-color: #000;
+    margin: 5px -3px;
+    padding: 7px 10px;
+    border: 2px solid;
+    border-color: #fffbfb;
+    background-color: rgb(15 14 14 / 16%)
     
 }
 #hardware{
@@ -397,7 +397,7 @@ small {
 .project-card-software {
     display: inline-block;
     width: 300px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #2f2b2b4f;
     padding: 1.8em;
     border-radius: 0.5em;
     position: relative;
@@ -405,7 +405,7 @@ small {
     backdrop-filter: blur(12px);
     border: solid 2px transparent;
     background-clip: padding-box;
-    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    box-shadow: 10px 10px 10px #2c2e316e;
     -webkit-animation: slide 1s forwards;
     animation: slide 1s forwards;
     margin: 0.4em;
@@ -415,7 +415,7 @@ small {
     display: inline-block;
     width: 300px;
     height: 300px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #2f2b2b4f;
     padding: 1.8em;
     border-radius: 0.5em;
     position: relative;
@@ -423,7 +423,7 @@ small {
     backdrop-filter: blur(12px);
     border: solid 2px transparent;
     background-clip: padding-box;
-    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    box-shadow: 10px 10px 10px #2c2e316e;
    -webkit-animation: slide 1s forwards;
     
     animation: slide 1s forwards;
@@ -528,11 +528,6 @@ small {
         padding: 0%;
     }
 
-    .sectionHeading {
-        /* margin-top: 2rem; */
-        padding-top: 2rem;
-    }
-
     .aboutUsIntro {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -562,6 +557,72 @@ small {
     .card-column-faculty {
         width: 92%;
     }
+    .sectionHeading {
+        /* margin-top: 2rem; */
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+    p {
+        margin-left: 4px;
+        margin-bottom: 1rem;
+        font-size: 13px;
+    }
+    .project-title {
+        color: #f1f1f1;
+        font-size: 22px;
+    }
+    
+    h2.project-title {
+        margin-bottom: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .project-card-software {
+        display: inline-block;
+        width: 270px;
+        background: #2f2b2b4f;
+        padding: 0.8em;
+        border-radius: 0.5em;
+        position: relative;
+        left:-100px;
+        z-index: 1;
+        backdrop-filter: blur(12px);
+        border: solid 2px transparent;
+        background-clip: padding-box;
+        box-shadow: 10px 10px 10px #2c2e316e;
+        -webkit-animation: slide 1s forwards;
+        animation: slide 1s forwards;
+        margin: 0.8em;
+    }
+    .project-card-hardware {
+        display: inline-block;
+    width: 288px;
+    height: 190px;
+    background: #2f2b2b4f;
+    padding: 1.8em;
+    border-radius: 0.5em;
+    position: relative;
+    left: -100px;
+    z-index: 1;
+    backdrop-filter: blur(12px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px #2c2e316e;
+    -webkit-animation: slide 1s forwards;
+    animation: slide 1s forwards;
+    margin: 0.8em;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: -4rem;
+}
+    @keyframes slide {
+        100%{
+            left:0px;
+        }
+    }
+    .project-group>ul>li a{font-size:0.8em;}
 }
 
 /* Mobile -btn */
